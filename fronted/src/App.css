@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: antiquewhite;
 }
 
 input{
@@ -11,4 +12,18 @@ input{
   height: 30px;
   margin: 5px;
 }
+
+.food{
+  height: 200px;
+  width: 350px;
+  margin: 10px;
+  border: 1px solid;
+  background-color: aqua;
+  text-shadow: 4px;
+}
+
+
+
+
+
 

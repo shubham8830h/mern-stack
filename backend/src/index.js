@@ -8,7 +8,7 @@ const cors=require("cors")
 
 app.use(body_parse.json())
 app.use(cors())
-mongoose.set("strictQuery", false);
+mongoose.set("strictQuery", false)
 mongoose
   .connect(
     "mongodb+srv://shubham108h:LOhyTHS7kcSijNsz@cluster0.ovhwygy.mongodb.net/shubham108h",
